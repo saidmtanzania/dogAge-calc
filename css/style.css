@@ -7,3 +7,6 @@ body{
     box-sizing: border-box;
     box-shadow: 12px solid grey;
 }
+.mod-fix{
+    height: 100px;
+}

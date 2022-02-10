@@ -13,11 +13,19 @@
         <div class="text-center bg-info">
             <h2>DOD AGE CALCULATOR</h2>
         </div>
-        <p class="card-text">This is Dog Age calculator in Human form</p>
         <div class="card">
+            <div class="card-header">
+                <p class="card-text">This is Dog Age calculator in Human form</p>
+            </div>
             <div class="card-body">
-              
+                <label for="dname" class="form-label">Enter Dog Age:</label>
+                <input type="number" id="dname" class="form-control" placeholder="Dog age">
+                <button type="submit" class="btn btn-primary mt-2">Submit</button>
             </div> 
+            <div class="card-footer mod-fix">
+                <h6>Dog Age in human form result:</h6>
+                <p id="result"></p>
+            </div>
         </div>
       </div>
 <script src="./js/main.js"></script>    
